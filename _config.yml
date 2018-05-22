@@ -1,0 +1,118 @@
+# Site settings
+title: LCY's Blog
+SEOTitle: 廖成宇的博客 | LCY's Blog
+header-img: img/404.PNG
+email_zero: liaochengyu_uestc@163.com
+email_one: liaochengyu.uestc@gmail.com
+description: "Every failure is leading towards success."
+keyword: "LCY, LCY Blog, 廖成宇的博客, liaochengyu, 廖成宇, UESTC, 精密仪器及机械"
+url: "http://liaochengyu.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+# github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/liaochengyu/liaochengyu.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals Determine What You Going To Be!"
+sidebar-avatar: /img/404.PNG      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+zhihu_username:     liao-cheng-yu-83
+github_username:    liaochengyu
+wechat_username:    https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG
+qq_username:  https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/qq_qr.JPG
+wechat_service_username:   https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_service_qr.jpg
+email_username:  mailto:liaochengyu.uestc@gmail.com
+# jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+# facebook_username:  https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG
+# weibo_username:     qiubaiying
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: liaochengyu
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 55c52290b316e60080b4                            #生成的clientID
+  clientSecret: dd8a2c968d6f0973a2e92678e6ad016db1cb050e    #生成的clientSecret
+  repo: liaochengyu.github.io    #仓库名称
+  owner: liaochengyu    #github用户名
+  admin: liaochengyu
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-116735843-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0             # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#00008f"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "电子科技大学",
+        href: "http://www.uestc.edu.cn/"
+    },{
+        title: "PYTHON官网",
+        href: "https://www.python.org/"
+    },{
+       title: "清水河畔",
+        href: "http://bbs.uestc.edu.cn/"
+#    },{
+#        title: "Apple Developer",
+#        href: "https://developer.apple.com/"
+    }
+]
+
+theme: jekyll-theme-architect
