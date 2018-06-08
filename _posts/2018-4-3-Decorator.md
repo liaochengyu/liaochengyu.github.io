@@ -8,7 +8,6 @@ header-img: img/bing_5.JPG    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                              #标签
 - python
-- 语法 
 
 ---
 >本篇博客是根据学习[廖雪峰python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014318435599930270c0381a3b44db991cd6d858064ac0000)而记录的笔记，你可以移步，也可以直接看我的笔记（内容有一定补充和删减，包括一些自己的理解）。
