@@ -9,8 +9,6 @@ catalog: true                       # 是否归档
 tags:                              #标签
 - python
 - Matplotlab
-- 可视化
-
 
 ---
 >`Python` 究竟如何在数据分析领域做到游刃有余？因为它有“四板斧”，分别是`Matplotlib、NumPy、SciPy、Pandas`。本篇博客是用于记录在我学习`python`的数据可视化包`Matplotlab`中内容。包括其基本使用和在学习过程中所遇到的一些问题。
