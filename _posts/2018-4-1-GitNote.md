@@ -7,7 +7,7 @@ author:     LCY                      # 作者
 header-img: img/bing_1.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                              #标签
-- Git 
+- 工具 
 ---
   
 >[廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)
