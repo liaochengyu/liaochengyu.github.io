@@ -4,7 +4,7 @@ title:      GitNote               # 标题
 subtitle:   Hello World, Hello Blog #副标题
 date:       2018-04-01              # 时间
 author:     LCY                      # 作者
-header-img: img/bing_1.jpg    #这篇文章标题背景图片
+header-img: img/cover/bing_1.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                              #标签
 - 工具 
