@@ -53,13 +53,19 @@ tags:                              #标签
 在学习工作中，云存储肯定是必要的，但现在存活的网盘，不外乎就是百度云盘了，伤的是非非会员下载限速，有时候就是几十kb，完全不能忍受啊，土豪就当我没说，在这推荐一个`Resilio Sync`，可以作为百度网盘的替代品。下载链接：[https://www.resilio.com/platforms/desktop/](https://www.resilio.com/platforms/desktop/ )，使用方法可以参考简书上的[简易教程](https://www.jianshu.com/p/339d07a958b7)
 
 --------------
-##### 屏幕录制
+##### 录制GIF
 前面推荐的截屏工具**FastStoneCapture**也是具有录制屏幕的功能，但只能保存为视频格式，不能保存为`gif`格式，在这里推荐专门用来录制屏幕的工具**screentogif**，它是一个免费开源的软件，下载链接：[http://www.screentogif.com/?l=zh_cn ](http://www.screentogif.com/?l=zh_cn)，他能录制白板和屏幕，还可以对其进行编辑，功能是比较完善的。
+
+--------------
+##### 录制屏幕
+1. 前面推荐的截屏工具**FastStoneCapture**也是具有录制屏幕的功能，但功能单一，基本能完成日常任务，接下来推荐另一款免费录制软件。
+2. 这款软件名字叫`OCAM`，[点击进入下载页面](https://download.cnet.com/oCam/3000-13633_4-75758209.html)，关于它的使用介绍可以查看[使用教程](https://mp.weixin.qq.com/s/BAN4RNVysdGbyOOizxZSng
+)。
 
 --------------
 ##### 图片压缩
 在写博客等场景中，如果使用原图或者尺寸比较大的图，会导致博客加载速度大大的降低，特别是搭建在GitHub上的博客，由于其服务器在境外，速度是更贱的感人，这时候，有一款强大的图片压缩软件就是相当幸福的一件事，在这里给大家推荐**caesium**。下载链接：[https://www.fosshub.com/Caesium-Image-Compressor.html/caesium-1.7.0-win.exe](https://www.fosshub.com/Caesium-Image-Compressor.html/caesium-1.7.0-win.exe)， 傻瓜安装，安装后就可以使用了，几乎没有任何的门槛，是相当的友好，对了，他还是一款开源免费软件，简直是业界良心呀。
 
-<p align="right">
-<strong>最近更新于  2018/5/11</strong>
+<p align="right"; color="red">
+<strong>最近更新于  2018/6/12</strong>
 </p>
