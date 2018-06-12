@@ -13,20 +13,23 @@ tags:                              #标签
 ---
 >`Python` 究竟如何在数据分析领域做到游刃有余？因为它有“四板斧”，分别是`Matplotlib、NumPy、SciPy、Pandas`。本篇博客是用于记录在我学习`python`的数据可视化包`Matplotlab`中内容。包括其基本使用和在学习过程中所遇到的一些问题。
 
-* `Matplotlib` ：是画图工具
-* `NumPy`：是矩阵运算库
-* `SciPy` ：是数学运算工具
-* `Pandas` ：是数据处理的工具
+* [Matplotlib](https://matplotlib.org/index.html#) ：画图工具
+* [NumPy](http://www.numpy.org/)：矩阵运算库
+* [SciPy](https://www.scipy.org/)：数学运算工具
+* [Pandas](https://pandas.pydata.org/) ：数据处理的工具
 
 ---
 
  俗话说“知己知彼，百战不殆”，在学习某个模块之前，就要了解，学习完之后我能用它来做什么，他有什么样的功能，在这里就不说了，大家可以直接移步维基百科[matplotlib](https://zh.wikipedia.org/wiki/Matplotlib)，不能科学上网的参考其他百科也行。这里给出`Matplotlab`的[官方网页](https://matplotlib.org/index.html#)。
+
+ 在网站 [https://pythonprogramming.net/](https://pythonprogramming.net/)中也有许多免费优质的 **python**教程，如果要学习相关东西，可以看看。
+
  接下来首先推荐一个基础的[入门教程](https://pythonprogramming.net/matplotlib-intro-tutorial/)，这个教程主要是利用`matplotlab`进行 **数据可视化**操作，可以借此来熟悉使用`matplotlab`功能，不过它是 ~~英文版~~ 的，其中包括视频教程和文本教程。如果外文对有些朋友不是很友好的话，你也可以参考大佬在简书上的[翻译版](https://www.jianshu.com/p/aa4150cf6c7f)。
 
 接下来的两篇帖子都是比较适合初学者阅读的，可以比较快速的对matplotlib有一个比较全面的认识。
 
-* https://www.jianshu.com/p/ebe721199d72 
-* https://www.jianshu.com/p/78ba36dddad8
+* [https://www.jianshu.com/p/ebe721199d72 ](https://www.jianshu.com/p/ebe721199d72 )
+* [https://www.jianshu.com/p/78ba36dddad8](https://www.jianshu.com/p/78ba36dddad8)
 
 ----------------
 #### 图形要素基本概念
