@@ -66,6 +66,15 @@ tags:                              #标签
 ##### 图片压缩
 在写博客等场景中，如果使用原图或者尺寸比较大的图，会导致博客加载速度大大的降低，特别是搭建在GitHub上的博客，由于其服务器在境外，速度是更贱的感人，这时候，有一款强大的图片压缩软件就是相当幸福的一件事，在这里给大家推荐**caesium**。下载链接：[https://www.fosshub.com/Caesium-Image-Compressor.html/caesium-1.7.0-win.exe](https://www.fosshub.com/Caesium-Image-Compressor.html/caesium-1.7.0-win.exe)， 傻瓜安装，安装后就可以使用了，几乎没有任何的门槛，是相当的友好，对了，他还是一款开源免费软件，简直是业界良心呀。
 
-<p align="right"; color="red">
+--------------
+##### 英语写作润色神器
+解决了获取信息和英文交流方面的困难，如果你还担心英文写作，怕自己翻译的文件中语法、措辞存在问题，或是觉得软件直译出来的内容太过生硬。那么，今天给大家介绍的 **「易改」1Checker**， 一定可以帮到大家！请访问如下链接进入[官网](http://www.1checker.com/)。话要说三遍，关键是免费，免费，免费，还tm好用。
+
+--------------
+##### 一枝红杏VPN配置
+直接访问链接http://order.yizhihongxing2018.com/knowledgebase.php?action=displayarticle&id=3，包括客服端和`SwitchOmega`浏览器插件。
+
+
+<p align="right">
 <strong>最近更新于  2018/6/12</strong>
 </p>
