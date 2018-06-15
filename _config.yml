@@ -95,8 +95,7 @@ service-worker: true
 
 
 # Friends
-friends:
-[
+friends:[
     {
         title: "Wikipedia",
         href: "https://www.wikipedia.org/"
@@ -132,11 +131,6 @@ friends:
     {
         title: "开源中国",
         href: "https://www.oschina.net/project/tags"
-    }
-
-
-
-
-]
+    }]
 
 theme: jekyll-theme-architect
