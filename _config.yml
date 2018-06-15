@@ -95,7 +95,8 @@ service-worker: true
 
 
 # Friends
-friends:[
+friends:
+  [
     {
         title: "Wikipedia",
         href: "https://www.wikipedia.org/"
