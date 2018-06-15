@@ -26,10 +26,6 @@ wechat_username:    https://raw.githubusercontent.com/liaochengyu/liaochengyu.gi
 qq_username:  https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/qq_qr.JPG
 # wechat_service_username:   https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_service_qr.jpg
 email_username:  mailto:liaochengyu.uestc@163.com
-# jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
-# facebook_username:  https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG
-# weibo_username:     qiubaiying
 
 
 # Build settings
@@ -99,20 +95,48 @@ service-worker: true
 
 
 # Friends
-friends: [
+friends:
+[
     {
-        title: "电子科技大学",
-        href: "http://www.uestc.edu.cn/"
-    },{
-        title: "PYTHON官网",
-        href: "https://www.python.org/"
-    },{
+        title: "Wikipedia",
+        href: "https://www.wikipedia.org/"
+    },
+    {
+        title: "Wikihow",
+        href: "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5"
+    },
+    {
        title: "清水河畔",
         href: "http://bbs.uestc.edu.cn/"
-#    },{
-#        title: "Apple Developer",
-#        href: "https://developer.apple.com/"
+    },
+    {
+        title: "小森林导航",
+        href: "http://hao.xsldh.com/"
+    },
+    {
+        title: "Google日历",
+        href: "https://calendar.google.com/calendar/r"
+    },
+    {
+        title: "Google翻译",
+        href: "https://translate.google.cn/"
+    },
+    {
+        title: "虫部落快搜",
+        href: "http://search.chongbuluo.com/"
+    },
+    {
+        title: "Google学术",
+        href: "https://scholar.google.com/"
+    },
+    {
+        title: "开源中国",
+        href: "https://www.oschina.net/project/tags"
     }
+
+
+
+
 ]
 
 theme: jekyll-theme-architect
