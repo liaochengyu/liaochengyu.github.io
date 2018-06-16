@@ -4,6 +4,62 @@ layout: default
 description: keep hungry keep foolish
 header-img: "img/bing_9.JPG"
 ---
+<head>
+    <style type="text/css">
+        #returntop{
+        background:url(images/top.png) no-repeat; /*这里是图标地址*/
+        bottom: 20px;
+        right: 20px;
+        height: 38px;  /* Height of image */
+        width: 38px; /* Width of image */
+        position:fixed;
+        _position:absolute;
+        line-height:30px;
+        text-align:center;
+        top:0px;
+        left:0px;
+        display:none;
+        cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="returntop"></div>
+    <script type="text/javascript">
+    var getDiv=document.getElementById('returntop');
+    getDiv.onclick=function(){
+    window.scrollTo(0,0);
+    }
+    window.onscroll=function(){
+    if(document.documentElement.scrollTop){
+    getDiv.style.display="block";
+    }else if(document.body.scrollTop){
+    getDiv.style.display="block";
+    }else{
+    getDiv.style.display="none";
+    }
+    }
+    function getWinSize(){
+    var winHeight=window.innerHeight,winWidth=window.innerWidth;
+    if(document.documentElement.clientHeight){
+    winHeight=document.documentElement.clientHeight;
+    winWidth=document.documentElement.clientWidth;
+    }else{
+    winHeight=document.body.clientHeight;
+    winWidth=document.body.clientWidth;
+    }
+        var height=winHeight-50;
+    var width=winWidth-100;
+    getDiv.style.top=height+"px";
+    getDiv.style.left=width+"px";
+    }
+    getWinSize();
+    window.onresize=getWinSize;
+    </script>
+</body>
+
+<!-- ----------以上内容为自行添加------------ -->
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
