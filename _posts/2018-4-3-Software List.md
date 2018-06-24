@@ -4,7 +4,7 @@ title:      Software List               # 标题
 subtitle:    实时更新中.......        #副标题
 date:       2018-04-03              # 时间
 author:     LCY                      # 作者
-header-img: img/bing_5.JPG    #这篇文章标题背景图片
+header-img: img/cover/bing_5.JPG    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                              #标签
 - 工具
