@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      PPT               # 标题 
+title:      Algorithms               # 标题 
 subtitle:   本篇博客包含我所使用过的算法的一个整理，源代码会以GitHub的形式给出                        #副标题
 date:       2018-6-24              # 时间
 author:     LCY                      # 作者
