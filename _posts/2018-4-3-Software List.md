@@ -72,9 +72,12 @@ tags:                              #标签
 
 --------------
 ##### 一枝红杏VPN配置
-直接访问链接http://order.yizhihongxing2018.com/knowledgebase.php?action=displayarticle&id=3，包括客服端和`SwitchOmega`浏览器插件。
+直接访问链接[http://order.yizhihongxing2018.com/knowledgebase.php?action=displayarticle&id=3](http://order.yizhihongxing2018.com/knowledgebase.php?action=displayarticle&id=3)，包括客服端和`SwitchOmega`浏览器插件。
 
+--------------
+##### 思维导图
+比如`xmind`等思维导图功能比较完善，但针对免费用户而言，体验就不那么友好了，在这里推荐[&rarr;百度脑图](http://naotu.baidu.com)，对于绝大部分用户已经够用了，而且可以所保存的文件类型也是比较齐全的。
 
 <p align="right">
-<strong>最近更新于  2018/6/12</strong>
+<strong>最近更新于  2018/6/24</strong>
 </p>
