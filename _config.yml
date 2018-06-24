@@ -1,31 +1,31 @@
 # Site settings
-title: LCY's Blog
-SEOTitle: 廖成宇的博客 | LCY's Blog
-header-img: img/bing_5.JPG
-email_zero: liaochengyu_uestc@163.com
-email_one: liaochengyu.uestc@gmail.com
+title: BY Blog
+SEOTitle: 柏荧的博客 | BY Blog
+header-img: img/post-bg-desk.jpg
+email: qiubaiying@gmail.com
 description: "Every failure is leading towards success."
-keyword: "LCY, LCY Blog, 廖成宇的博客, liaochengyu, 廖成宇, UESTC, 精密仪器及机械"
-url: "http://liaochengyu.github.io"          # your host, for absolute URL
+keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+url: "http://qiubaiying.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-
-github_repo: "https://github.com/liaochengyu/liaochengyu.github.io.git" # you code repository
+github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals Determine What You Going To Be!"
-sidebar-avatar: /img/404.PNG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# zhihu_username:     liao-cheng-yu-83
-github_username:    liaochengyu
-wechat_username:    https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG
-qq_username:  https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/qq_qr.JPG
-# wechat_service_username:   https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_service_qr.jpg
-email_username:  mailto:liaochengyu.uestc@163.com
+# weibo_username:     qiubaiying
+zhihu_username:     qiubaiying
+github_username:    qiubaiying
+facebook_username:  baiying.qiu.7
+jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
 
 
 # Build settings
@@ -36,9 +36,11 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
+
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+
 
 
 
@@ -55,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: liaochengyu
+# disqus_username: qiubaiying
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 55c52290b316e60080b4                            #生成的clientID
-  clientSecret: dd8a2c968d6f0973a2e92678e6ad016db1cb050e    #生成的clientSecret
-  repo: liaochengyu.github.io    #仓库名称
-  owner: liaochengyu    #github用户名
-  admin: liaochengyu
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: qiubaiying.github.io    #仓库名称
+  owner: qiubaiying    #github用户名
+  admin: qiubaiying
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -72,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-116735843-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -84,47 +86,29 @@ ga_domain: auto               # 默认的是 auto, 这里我是自定义了的�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0             # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#00008f"
+chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
 
 # Friends
-friends:
-  [
+friends: [
     {
-        title: "Wikipedia",
-        href: "https://www.wikipedia.org/"
+        title: "WY",
+        href: "http://zhengwuyang.com"
     },{
-        title: "Wikihow",
-        href: "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5"
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
-       title: "清水河畔",
-        href: "http://bbs.uestc.edu.cn/"
+        title: "Apple",
+        href: "https://apple.com"
     },{
-        title: "小森林导航",
-        href: "http://hao.xsldh.com/"
-    },{
-        title: "Google日历",
-        href: "https://calendar.google.com/calendar/r"
-    },{
-        title: "Google翻译",
-        href: "https://translate.google.cn/"
-    },{
-        title: "虫部落快搜",
-        href: "http://search.chongbuluo.com/"
-    },{
-        title: "Google学术",
-        href: "https://scholar.google.com/"
-    },{
-        title: "开源中国",
-        href: "https://www.oschina.net/project/tags"
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
     }
-  ]
-
-theme: jekyll-theme-architect
+]

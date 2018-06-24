@@ -173,42 +173,6 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-
-
-                            {% if site.email_username %}
-                            <li>
-                                <a href="mailto:liaochengyu.uestc@gmail.com">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-
-                            {% if site.qq_username %}
-                            <li>
-                                <a target="_blank" href="https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/qq_qr.JPG">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-
-                            {% if site.wechat_username %}
-                            <li>
-                                <a target="_blank" href="https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-
-
                             {% if site.github_username %}
                             <li>
                                 <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -218,13 +182,12 @@ layout: default
                                     </span>
                                 </a>
                             </li>
-                           {% endif %}
-
-
+                            {% endif %}
+                            
                         </ul>
-			{% if site.email_zero %}
-			    <p>✉️ {{site.email_zero}} <br> ✉️ {{site.email_one}}</p>
-			{% endif %}
+                        {% if site.email %}
+                            <p>✉️ {{site.email}}</p>
+                        {% endif %}
                     </div>
                 </section>
                 <!-- Friends Blog -->
