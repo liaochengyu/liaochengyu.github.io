@@ -14,12 +14,9 @@ tags:                              #标签
 ## Evolutionary Algorithms
 
 *  [Nelder-Mead Simplex]https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method) ，可翻译为单纯形法，源码可访问[->此链接](https://github.com/liaochengyu/Nelder-Mead-Simplex)
-<center>
 ！[](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nelder-Mead_Rosenbrock.gif/320px-Nelder-Mead_Rosenbrock.gif)	
-</center>>
-<center>
 ！[](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nelder-Mead_Himmelblau.gif/320px-Nelder-Mead_Himmelblau.gif)	
-</center>
+
 
 * Simulated Annealing
 * Particle Swarm Optimization
