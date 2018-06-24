@@ -25,16 +25,18 @@
                                 </a>
                             </li>
                     {% endif %}
-                    {% if site.twitter_username %}
+
+                    {% if site.email_username %}
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <a href="mailto:liaochengyu_uestc@163.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
+          
 
                     <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
                     {% if site.zhihu_username %}
@@ -58,17 +60,6 @@
                     </li>
                     {% endif %}
 
-
-                    {% if site.facebook_username %}
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -79,12 +70,23 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.linkedin_username %}
+                    {% if site.qq_username %}
                     <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                        <a target="_blank" href="https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/qq_qr.JPG">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+
+                    {% if site.wechat_username %}
+                    <li>
+                        <a target="_blank" href="https://raw.githubusercontent.com/liaochengyu/liaochengyu.github.io/master/img/wechat_qr.JPG">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
