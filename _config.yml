@@ -123,7 +123,11 @@ friends:
     },{
         title: "开源中国",
         href: "https://www.oschina.net/project/tags"
+    },{
+        title: "不死鸟-分享为王",
+        href: "https://lai.yuweining.cn/"
     }
   ]
+
 
 theme: jekyll-theme-architect
