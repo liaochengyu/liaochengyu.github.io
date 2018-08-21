@@ -9,5 +9,5 @@
 + CLS: common language specification, 公共语言规范
 + BCL: base class library, 基础类库，封装了各种基本类型，如线程、文件输入和输出、图形绘制以及与各种硬件设备的交互
 + 托管语言：C#/VB/C++/JS/F#
-+ 托管代码: managed code ，简单来说就是必须运行在.NET运行库下的代码成为托管代码
++ 托管代码: managed code，简单来说就是必须运行在.NET运行库下的代码成为托管代码
 
