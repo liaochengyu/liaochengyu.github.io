@@ -14,6 +14,13 @@ tags:                              #标签
 >本篇博客是用于记录在我学习科研中，自己常用而觉得还可以的软件，不一定是同类软件中最好的，附有软件功能简介和下载链接，主要是方便自己，当然大家觉得有用的话，还是可以看看。同时大家有好用的软件而我的博客中没有，**欢迎在博客留言区留言**，我会根据情况做必要的补充。
 
 ----------------
+##### 常用在线网站
+[全网VIP视频解析-岩兔站](https://vip.yantuz.cn/)、[Github源码](https://github.com/yhf7952/VipVideo)
+[简历在线编辑](https://app.enhancv.com/resume/new)
+[MarkdownToPDF](https://www.markdowntopdf.com/)
+[快速、简单的在线修改图片工具 - 改图宝](http://www.gaitubao.com/)
+
+----------------
 ##### 文档编辑器sublime text
 对于文本编辑，当然大佬们也可以只用笔记本，但`sublime text`可以打造个性化的文本编辑器，也可以用于写脚本或者`markdown`等文档。具体安装方法和配置点击请查看[我的博客](https://liaochengyu.github.io/2018/04/01/Markdown-&-Sublime-Text-3/)。
 
