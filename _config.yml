@@ -11,7 +11,7 @@ github_repo: "https://github.com/liaochengyu/liaochengyu.github.io.git" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals Determine Future!"
+sidebar-about-description: "Goals Determine Future !"
 sidebar-avatar: /img/白底证件照.JPG       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
