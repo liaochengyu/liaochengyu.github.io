@@ -19,7 +19,6 @@ tags:                              #标签
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nelder-Mead_Himmelblau.gif/320px-Nelder-Mead_Himmelblau.gif)	
 
-
 * Simulated Annealing
 * Particle Swarm Optimization
 * Genetic Algorithms

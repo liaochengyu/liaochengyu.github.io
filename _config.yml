@@ -40,9 +40,9 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
-
+# post_asset_folder：true
 
 
 # Markdown settings
@@ -122,4 +122,5 @@ friends:
   ]
 
 
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
+theme: jekyll-theme-primer
